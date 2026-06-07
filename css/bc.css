@@ -1,0 +1,19 @@
+@font-face {
+  font-family: 'undertale';
+  src: url('../fuente/pixel.woff2') format('woff2'), 
+   url('../fuente/pixel.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  font-family: 'undertale', sans-serif;
+}
+
+h1 {
+  font-family: 'undertale', serif;
+  font-weight: bold;
+}
+
+
+

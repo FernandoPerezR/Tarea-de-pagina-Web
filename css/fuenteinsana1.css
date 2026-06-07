@@ -1,0 +1,41 @@
+.mi-clase {
+  cursor: url('../Mouse/default.png') 16 16, auto;
+}
+body {
+    cursor: url('../Mouse/default.png'), auto;
+}
+img {
+    cursor: url('../Mouse/click.png'), auto;
+}
+a {
+    cursor: url('../Mouse/click.png'), auto;
+}
+
+a, button, [onclick] {
+    cursor: url('../Mouse/click.png'), pointer !important;
+}
+
+@font-face {
+  font-family: 'undertale';
+  src: url('../fuente/pixel.woff2') format('woff2'), 
+   url('../fuente/pixel.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  font-family: 'undertale', sans-serif;
+}
+
+h1 {
+  font-family: 'undertale', serif;
+  font-weight: bold;
+}
+
+
+.cosa{
+  text-align: justify;
+  background-color: indigo;
+  border-radius: 99%;
+  border-color: black;
+}
